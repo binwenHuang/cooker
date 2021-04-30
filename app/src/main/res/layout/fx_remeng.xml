@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang4"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="打鸡血的疯兔"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="菜谱4·粉丝59"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#家常烤鱼#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="换着花样做面食，紫色菜掉水后可凉拌吃，再用面水发课一举两得"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/cai9"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang5"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="周润发"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="菜谱12·粉丝514"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#豆豉辣椒火焙鱼#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="换着花样做面食，紫色菜掉水后可凉拌吃，再用面水发课一举两得"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/cai10"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang6"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="宁宁的健康厨房"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="菜谱50·粉丝32.4万"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#燕麦牛奶水果餐#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="这个早餐非常健康，对于减肥和健身的朋友们非常重要，燕麦可以抵御饥饿，并且提供人体所…"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/cai11"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang7"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="happy啸-啸"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="视频124·菜谱170·粉丝51.5万"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#玉米排骨汤#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="换着花样做面食，紫色菜掉水后可凉拌吃，再用面水发课一举两得"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/cai12"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+</LinearLayout>

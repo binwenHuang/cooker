@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cdp.cooker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="edu.cdp.cooker.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="edu.cdp.cooker.Activity.MainActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity
+            android:name=".Activity.FenleiActivity">
+
+
+        </activity>
+
+        <activity android:name=".Activity.welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Activity.LoadingActivity">
+
+        </activity>
+
+        <activity
+            android:name=".Activity.VideoActicity"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity android:name=".Activity.BaseActivity"
+           >
+
+        </activity>
+
+        <activity android:name=".Activity.XYActivity"></activity>
+        <activity android:name=".Activity.RegisterActivity"></activity>
+        <activity android:name=".Activity.ForgetActivity"></activity>
+        <activity android:name=".Activity.HongpeiActivity"></activity>
+        <activity android:name=".Activity.XiafancaiActivity"></activity>
+        <activity android:name=".Activity.JiachangcaiActivity"></activity>
+        <activity android:name=".Activity.ZuixintuijianActivity"></activity>
+        <activity android:name=".Activity.CaipuActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.cdp.cooker.Activity.FenleiActivity">
+    <include layout="@layout/activity_base"></include>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@color/write"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="240dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fl_remeng"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="热门"
+                android:textColor="@color/black"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/fl_shucai"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="蔬菜"
+                android:textColor="@color/black"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/fl_hongpei"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="烘焙"
+                android:textColor="@color/black"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/fl_caishi"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="菜式"
+                android:textColor="@color/black"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/fl_roulei"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="肉类"
+                android:textColor="@color/black"
+                android:textSize="16sp"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fl_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/write">
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>
+</LinearLayout>

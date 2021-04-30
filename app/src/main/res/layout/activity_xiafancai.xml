@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.cdp.cooker.Activity.XiafancaiActivity">
+    <include layout="@layout/activity_base"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/wellcome_start_bg"
+                android:backgroundTint="@color/grey"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:background="@null"></EditText>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="7dp"
+                    android:src="@drawable/search" />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang3"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="紫菱夜雨"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="菜谱64·粉丝1055"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#卤牛肉#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="牛肉含有丰富的蛋白质，脂肪、维生素B族、烟酸、钙、磷、铁、胆甾醇等成分。具有强筋壮…"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:id="@+id/gz1"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/defit"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang6"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="rainbow菇凉"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="视频279·菜谱130·粉丝12.9万"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#香橙炖蛋#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="口感非常嫩滑、又有橙子的清香味，非常的不错。"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:id="@+id/gz2"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/defit"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang7"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="女女女汉子"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="视频339·菜谱384·粉丝37.0万"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#金玉满堂#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="金玉满堂是一道广东省的地方传统名菜,属于粤菜系。根据个人爱好在里面也可以加黄瓜丁之…"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:id="@+id/gz3"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/defit"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@color/write">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/touxiang4"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="鱼儿AA567"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="视频615·菜谱657·粉丝45.4万"
+                    android:textSize="11dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="热爱美食"
+                    android:textSize="14dp"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#蒜蓉粉丝蒸生蚝#"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="生蚝不但营养，而且美味，是家人都喜欢的美食，其中蒜蓉粉丝蒸是最喜欢的做法。"
+            android:textSize="14sp"
+            android:layout_marginLeft="60dp">
+        </TextView>
+        <ImageView
+            android:id="@+id/gz4"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/defit"
+            android:layout_gravity="center">
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/grey"></ImageView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
